@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/Main.unity
+    guid: ec90145fe174af74caed50f01e9f41f8
+  - enabled: 1
+    path: Assets/Scene/Burclar.unity
+    guid: 3e714ed171bbadc49bdba1fa76636db1
+  - enabled: 1
+    path: Assets/Scene/Default.unity
+    guid: 642c89a0b107ded499c04d528f498fa8
+  - enabled: 1
+    path: Assets/Scene/Interactive Dialogue.unity
+    guid: 7e864f0f9485b944d9410d8eb9dd9cee
+  - enabled: 1
+    path: Assets/Scene/KahveFali.unity
+    guid: 20b239d6f4ce6a443b154152bf86afc3
   m_configObjects: {}

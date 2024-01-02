@@ -1,0 +1,3621 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &58108253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58108256}
+  - component: {fileID: 58108255}
+  - component: {fileID: 58108254}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &58108254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58108253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &58108255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58108253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &58108256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58108253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &128150965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128150966}
+  - component: {fileID: 128150968}
+  - component: {fileID: 128150967}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &128150966
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128150965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 354647872}
+  - {fileID: 1591475425}
+  - {fileID: 233597845}
+  - {fileID: 869372606}
+  m_Father: {fileID: 1904087205}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &128150967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128150965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 708adefa97787a14f83a51eff24369f7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &128150968
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128150965}
+  m_CullTransparentMesh: 1
+--- !u!1 &181354392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181354393}
+  - component: {fileID: 181354396}
+  - component: {fileID: 181354395}
+  - component: {fileID: 181354394}
+  m_Layer: 5
+  m_Name: CekveYollaBtn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &181354393
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181354392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -2, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1776288108}
+  m_Father: {fileID: 877770750}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 268, y: -596}
+  m_SizeDelta: {x: 245, y: 240}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &181354394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181354392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 181354395}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1904087206}
+        m_TargetAssemblyTypeName: FotoCekme, Assembly-CSharp
+        m_MethodName: CekFoto
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &181354395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181354392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9433962, g: 0.6361213, b: 0.3693485, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6aee459386c66164ba755c066ad618c2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &181354396
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181354392}
+  m_CullTransparentMesh: 1
+--- !u!1 &233597844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 233597845}
+  - component: {fileID: 233597848}
+  - component: {fileID: 233597847}
+  - component: {fileID: 233597846}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &233597845
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233597844}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.746, y: 1.7459999, z: 1.7459999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 128150966}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 326.1, y: 926.4}
+  m_SizeDelta: {x: 74, y: 74}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &233597846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233597844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 233597847}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1904087207}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: SahneyiYukle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: KahveFali
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &233597847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233597844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c368a4271af1c9646a49617d941d7079, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &233597848
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233597844}
+  m_CullTransparentMesh: 1
+--- !u!1 &354647871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354647872}
+  - component: {fileID: 354647874}
+  - component: {fileID: 354647873}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &354647872
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354647871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.72, y: 5.5, z: 12}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 128150966}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -47.233902}
+  m_SizeDelta: {x: 85, y: 357.176}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &354647873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354647871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2b84e08015024f14b9f0ec7199699be8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &354647874
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354647871}
+  m_CullTransparentMesh: 1
+--- !u!1 &501901411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 501901412}
+  - component: {fileID: 501901414}
+  - component: {fileID: 501901413}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &501901412
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501901411}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 9, y: 9, z: 9}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 877770750}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 55.5}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &501901413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501901411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 228d8cd82f65fa842be78760514c43cf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &501901414
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501901411}
+  m_CullTransparentMesh: 1
+--- !u!1 &626542485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 626542488}
+  - component: {fileID: 626542487}
+  - component: {fileID: 626542486}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &626542486
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626542485}
+  m_Enabled: 1
+--- !u!20 &626542487
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626542485}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &626542488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626542485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &637476288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637476289}
+  - component: {fileID: 637476292}
+  - component: {fileID: 637476291}
+  - component: {fileID: 637476290}
+  m_Layer: 5
+  m_Name: KameraBaslatBtn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &637476289
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637476288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1645416967}
+  m_Father: {fileID: 877770750}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -268.5, y: -595.5}
+  m_SizeDelta: {x: 245, y: 240}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &637476290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637476288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 637476291}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1904087206}
+        m_TargetAssemblyTypeName: FotoCekme, Assembly-CSharp
+        m_MethodName: BaslatKameraOnizleme
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &637476291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637476288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9433962, g: 0.6361213, b: 0.3693485, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6aee459386c66164ba755c066ad618c2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &637476292
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637476288}
+  m_CullTransparentMesh: 1
+--- !u!1 &655202825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 655202826}
+  - component: {fileID: 655202828}
+  - component: {fileID: 655202827}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &655202826
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655202825}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.16904, y: 0.16904, z: 0.16904}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1845801799}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.72, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &655202827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655202825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "L\xFCtfen 10 saniye bekleyiniz...  \nEl Fali Yorumunuzu yaz\u0131yoruz."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d68c234fc45911247b5f39fb13a53a72, type: 2}
+  m_sharedMaterial: {fileID: 3183771174656821863, guid: d68c234fc45911247b5f39fb13a53a72, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 49.1
+  m_fontSizeBase: 49.1
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -68.45167, y: -144.60078, z: -75.77844, w: -145.33087}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &655202828
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655202825}
+  m_CullTransparentMesh: 1
+--- !u!1 &869372605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869372606}
+  - component: {fileID: 869372608}
+  - component: {fileID: 869372607}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &869372606
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869372605}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.2505264, y: 2.2505264, z: 2.2505264}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 128150966}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 833.14}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &869372607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869372605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "EL Fal\u0131 Yorumunuz"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e8e8f091d9f0ce44184cbc5932f4a03a, type: 2}
+  m_sharedMaterial: {fileID: 6554197307141849360, guid: e8e8f091d9f0ce44184cbc5932f4a03a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 31.7
+  m_fontSizeBase: 31.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &869372608
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869372605}
+  m_CullTransparentMesh: 1
+--- !u!1 &877770749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877770750}
+  - component: {fileID: 877770752}
+  - component: {fileID: 877770751}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &877770750
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877770749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2014121393}
+  - {fileID: 501901412}
+  - {fileID: 1991091247}
+  - {fileID: 637476289}
+  - {fileID: 181354393}
+  - {fileID: 1474145907}
+  - {fileID: 1845801799}
+  m_Father: {fileID: 1904087205}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &877770751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877770749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &877770752
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877770749}
+  m_CullTransparentMesh: 1
+--- !u!1 &910552806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 910552807}
+  - component: {fileID: 910552810}
+  - component: {fileID: 910552809}
+  - component: {fileID: 910552808}
+  m_Layer: 5
+  m_Name: BtnHome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &910552807
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910552806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1904087205}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 97.23, y: -124.76}
+  m_SizeDelta: {x: 104, y: 98}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &910552808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910552806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 910552809}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1904087207}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: SahneyiYukle
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Main
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &910552809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910552806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.46226418, g: 0.42955682, b: 0.45147082, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2bc2ad43a30eed140a2b9f36f78bba21, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &910552810
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910552806}
+  m_CullTransparentMesh: 1
+--- !u!1 &1474145906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474145907}
+  - component: {fileID: 1474145909}
+  - component: {fileID: 1474145908}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1474145907
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474145906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 877770750}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 159.54, y: 784}
+  m_SizeDelta: {x: 499.3654, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1474145908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474145906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: EL FALI
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e8e8f091d9f0ce44184cbc5932f4a03a, type: 2}
+  m_sharedMaterial: {fileID: 6554197307141849360, guid: e8e8f091d9f0ce44184cbc5932f4a03a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 148.2
+  m_fontSizeBase: 148.2
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -292.5999, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1474145909
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474145906}
+  m_CullTransparentMesh: 1
+--- !u!1 &1591475424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591475425}
+  - component: {fileID: 1591475427}
+  - component: {fileID: 1591475426}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1591475425
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591475424}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.2505264, y: 2.2505264, z: 2.2505264}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 128150966}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.22582, y: 343.17}
+  m_SizeDelta: {x: 257.12, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1591475426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591475424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum:\r\n\r\nFincan\u0131n dibinde beliren desenlerde
+    bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar, size yeni f\u0131rsatlarla
+    kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir.
+    Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde
+    tutuyorsunuz gibi g\xF6r\xFCn\xFCyor.\r\n\r\nFincan\u0131n kenarlar\u0131nda
+    dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F
+    \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine i\u015Faret
+    edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.\r\n\r\nFincan\u0131n i\xE7inde beliren
+    bir \xE7i\xE7ek fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi sembolize ederler.
+    Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya
+    ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. Kendinizi daha fazla ifade etmek veya sanatsal yarat\u0131c\u0131l\u0131\u011F\u0131n\u0131z\u0131
+    ke\u015Ffetmek isteyebilirsiniz.\r\n\r\nSon olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir deniz kabu\u011Fu fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. Deniz kabu\u011Fu,
+    i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi ke\u015Ffetme veya
+    gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131 g\xF6sterebilir.
+    \u0130\xE7sel bilgelik ve derinlik aray\u0131\u015F\u0131nda olabilirsiniz.\r\n\r\nKahve
+    fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel
+    sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir.
+    \u0130yi \u015Fanslar!"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15.2
+  m_fontSizeBase: 15.2
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -64.49265, y: -121.81683, z: -65.19947, w: -521.98364}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1591475427
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591475424}
+  m_CullTransparentMesh: 1
+--- !u!1 &1645416966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1645416967}
+  - component: {fileID: 1645416969}
+  - component: {fileID: 1645416968}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1645416967
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645416966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 637476289}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1645416968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645416966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Kamera Ba\u015Flat"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e8e8f091d9f0ce44184cbc5932f4a03a, type: 2}
+  m_sharedMaterial: {fileID: 6554197307141849360, guid: e8e8f091d9f0ce44184cbc5932f4a03a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 27.7
+  m_fontSizeBase: 27.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1645416969
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645416966}
+  m_CullTransparentMesh: 1
+--- !u!1 &1776288107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1776288108}
+  - component: {fileID: 1776288110}
+  - component: {fileID: 1776288109}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1776288108
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776288107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 181354393}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1776288109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776288107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\xC7ek ve Yolla"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e8e8f091d9f0ce44184cbc5932f4a03a, type: 2}
+  m_sharedMaterial: {fileID: 6554197307141849360, guid: e8e8f091d9f0ce44184cbc5932f4a03a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 27.7
+  m_fontSizeBase: 27.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1776288110
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776288107}
+  m_CullTransparentMesh: 1
+--- !u!1 &1792874472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1792874474}
+  - component: {fileID: 1792874473}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1792874473
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792874472}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1792874474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792874472}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1845801798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1845801799}
+  - component: {fileID: 1845801801}
+  - component: {fileID: 1845801800}
+  m_Layer: 5
+  m_Name: LutfenBekleyinizTxt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1845801799
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845801798}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 655202826}
+  m_Father: {fileID: 877770750}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -183.3}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1845801800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845801798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 012c08d47d70d3a418849971526a263e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1845801801
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845801798}
+  m_CullTransparentMesh: 1
+--- !u!1 &1904087201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1904087205}
+  - component: {fileID: 1904087204}
+  - component: {fileID: 1904087203}
+  - component: {fileID: 1904087202}
+  - component: {fileID: 1904087206}
+  - component: {fileID: 1904087207}
+  - component: {fileID: 1904087208}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1904087202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904087201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1904087203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904087201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1080, y: 1920}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1904087204
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904087201}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1904087205
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904087201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 877770750}
+  - {fileID: 910552807}
+  - {fileID: 128150966}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1904087206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904087201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05633a2f8afd0b84ea1737f2e2d77ffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fotoImage: {fileID: 501901413}
+  kameraPreview: {fileID: 1991091245}
+  kameraBaslatBtn: {fileID: 637476290}
+  cekveYollaBtn: {fileID: 181354394}
+  lutfenBekleyinizImage: {fileID: 1845801798}
+  FalOkuPanel: {fileID: 128150965}
+--- !u!114 &1904087207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904087201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9e62f0965170d479641dfa2a2f10d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1904087208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904087201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e567959c56cd7524fa0e886ab5fcd3fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kahveFalicerik:
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar, size yeni f\u0131rsatlarla
+    kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir.
+    Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde
+    tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir \xE7i\xE7ek fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    \xC7i\xE7ekler genellikle b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi
+    sembolize ederler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. Kendinizi daha fazla ifade etmek veya sanatsal yarat\u0131c\u0131l\u0131\u011F\u0131n\u0131z\u0131
+    ke\u015Ffetmek isteyebilirsiniz. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir deniz kabu\u011Fu fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. Deniz kabu\u011Fu,
+    i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi ke\u015Ffetme veya
+    gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131 g\xF6sterebilir.
+    \u0130\xE7sel bilgelik ve derinlik aray\u0131\u015F\u0131nda olabilirsiniz. @
+    @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi. Da\u011Flar, b\xFCy\xFCk zorluklar\u0131
+    ve hedefleri temsil ederler. Bu, size kar\u015F\u0131la\u015Fabilece\u011Finiz
+    b\xFCy\xFCk bir hedefi veya zorlu bir yolculu\u011Fu g\xF6sterebilir. Ancak bu
+    ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar ve zaferler kazanma potansiyelinizi
+    de hat\u0131rlat\u0131yor. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir y\u0131ld\u0131z fig\xFCr\xFC var gibi
+    g\xF6r\xFCn\xFCyor. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131
+    ve gelecekteki f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, sizin
+    i\xE7in parlak bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n yolunda oldu\u011Funu
+    i\u015Faret edebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir ku\u011Fu fig\xFCr\xFC belirginle\u015Fiyor gibi. Ku\u011Fular zarafeti,
+    g\xFCzelli\u011Fi ve i\xE7sel de\u011Fi\u015Fimi temsil ederler. Bu, sizin hayat\u0131n\u0131zda
+    bir d\xF6n\xFC\u015F\xFCm ya\u015Fama veya daha zarif bir yol izleme ihtiyac\u0131n\u0131
+    g\xF6sterebilir. Kendinizi daha fazla ifade etmek veya sanatsal yarat\u0131c\u0131l\u0131\u011F\u0131n\u0131z\u0131
+    ke\u015Ffetmek isteyebilirsiniz. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve
+    ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir ku\u011Fu fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. Ku\u011Fular zarafeti,
+    g\xFCzelli\u011Fi ve i\xE7sel de\u011Fi\u015Fimi temsil ederler. Bu, sizin hayat\u0131n\u0131zda
+    bir d\xF6n\xFC\u015F\xFCm ya\u015Fama veya daha zarif bir yol izleme ihtiyac\u0131n\u0131
+    g\xF6sterebilir. Kendinizi daha fazla ifade etmek veya sanatsal yarat\u0131c\u0131l\u0131\u011F\u0131n\u0131z\u0131
+    ke\u015Ffetmek isteyebilirsiniz. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi sembolize ederler.
+    Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya
+    ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir deniz kabu\u011Fu fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. Deniz kabu\u011Fu,
+    i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi ke\u015Ffetme veya
+    gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131 g\xF6sterebilir.
+    \u0130\xE7sel bilgelik ve derinlik aray\u0131\u015F\u0131nda olabilirsiniz. @
+    @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor.
+    Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve
+    de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir kap\u0131 fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Kap\u0131lar yeni ba\u015Flang\u0131\xE7lar\u0131, f\u0131rsatlar\u0131
+    ve ke\u015Fifleri temsil ederler. Bu kap\u0131n\u0131n sizin i\xE7in a\xE7\u0131ld\u0131\u011F\u0131n\u0131
+    g\xF6steriyor olabilir, bu nedenle cesurca ad\u0131m atmak ve yeni maceralara
+    yolculuk yapmak i\xE7in haz\u0131r olun. @ @Son olarak, fincan\u0131n \xFCst
+    k\u0131sm\u0131nda bir yelkenli gemi fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Yelkenli gemi, bir yolculu\u011Fa \xE7\u0131kmay\u0131 ve yeni yerler ke\u015Ffetmeyi
+    simgeler. Bu, size yak\u0131n gelecekte bir seyahat plan\u0131 yapma veya yeni
+    bir deneyim ya\u015Fama f\u0131rsat\u0131 sunabilir. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi.
+    Da\u011Flar, b\xFCy\xFCk zorluklar\u0131 ve hedefleri temsil ederler. Bu, size
+    kar\u015F\u0131la\u015Fabilece\u011Finiz b\xFCy\xFCk bir hedefi veya zorlu bir
+    yolculu\u011Fu g\xF6sterebilir. Ancak bu ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar
+    ve zaferler kazanma potansiyelinizi de hat\u0131rlat\u0131yor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir g\xFCne\u015F fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. G\xFCne\u015F, ayd\u0131nl\u0131k,
+    umut ve pozitif enerjiyi temsil eder. Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k
+    oldu\u011Funu i\u015Faret edebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor gibi. Y\u0131ld\u0131zlar,
+    umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki f\u0131rsatlar\u0131 temsil
+    ederler. Bu y\u0131ld\u0131z, sizin i\xE7in parlak bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n
+    yolunda oldu\u011Funu i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir ku\u011Fu fig\xFCr\xFC belirginle\u015Fiyor gibi. Ku\u011Fular zarafeti,
+    g\xFCzelli\u011Fi ve i\xE7sel de\u011Fi\u015Fimi temsil ederler. Bu, sizin hayat\u0131n\u0131zda
+    bir d\xF6n\xFC\u015F\xFCm ya\u015Fama veya daha zarif bir yol izleme ihtiyac\u0131n\u0131
+    g\xF6sterebilir. Kendinizi daha fazla ifade etmek veya sanatsal yarat\u0131c\u0131l\u0131\u011F\u0131n\u0131z\u0131
+    ke\u015Ffetmek isteyebilirsiniz. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir g\xFCne\u015F fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif enerjiyi temsil eder. Bu,
+    gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu i\u015Faret edebilir.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir kap\u0131 fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Kap\u0131lar yeni ba\u015Flang\u0131\xE7lar\u0131,
+    f\u0131rsatlar\u0131 ve ke\u015Fifleri temsil ederler. Bu kap\u0131n\u0131n sizin
+    i\xE7in a\xE7\u0131ld\u0131\u011F\u0131n\u0131 g\xF6steriyor olabilir, bu nedenle
+    cesurca ad\u0131m atmak ve yeni maceralara yolculuk yapmak i\xE7in haz\u0131r
+    olun. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle
+    kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size
+    ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. \xC7i\xE7ekler genellikle b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi
+    sembolize ederler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. Kendinizi daha fazla ifade etmek veya sanatsal yarat\u0131c\u0131l\u0131\u011F\u0131n\u0131z\u0131
+    ke\u015Ffetmek isteyebilirsiniz. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir deniz kabu\u011Fu fig\xFCr\xFC var gibi
+    g\xF6r\xFCn\xFCyor. Deniz kabu\u011Fu, i\xE7sel hazineyi temsil eder. Bu, i\xE7sel
+    potansiyelinizi ke\u015Ffetme veya gizli yeteneklerinizi ortaya \xE7\u0131karma
+    f\u0131rsat\u0131n\u0131 g\xF6sterebilir. \u0130\xE7sel bilgelik ve derinlik
+    aray\u0131\u015F\u0131nda olabilirsiniz. @ @Son olarak, fincan\u0131n \xFCst
+    k\u0131sm\u0131nda bir yelkenli gemi fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Yelkenli gemi, bir yolculu\u011Fa \xE7\u0131kmay\u0131 ve yeni yerler ke\u015Ffetmeyi
+    simgeler. Bu, size yak\u0131n gelecekte bir seyahat plan\u0131 yapma veya yeni
+    bir deneyim ya\u015Fama f\u0131rsat\u0131 sunabilir. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar, size yeni f\u0131rsatlarla
+    kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir.
+    Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde
+    tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir deniz kabu\u011Fu fig\xFCr\xFC var gibi
+    g\xF6r\xFCn\xFCyor. Deniz kabu\u011Fu, i\xE7sel hazineyi temsil eder. Bu, i\xE7sel
+    potansiyelinizi ke\u015Ffetme veya gizli yeteneklerinizi ortaya \xE7\u0131karma
+    f\u0131rsat\u0131n\u0131 g\xF6sterebilir. \u0130\xE7sel bilgelik ve derinlik
+    aray\u0131\u015F\u0131nda olabilirsiniz. @ @Son olarak, fincan\u0131n \xFCst
+    k\u0131sm\u0131nda bir g\xFCne\u015F fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif enerjiyi temsil eder. Bu,
+    gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu i\u015Faret edebilir.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi.
+    Da\u011Flar, b\xFCy\xFCk zorluklar\u0131 ve hedefleri temsil ederler. Bu, size
+    kar\u015F\u0131la\u015Fabilece\u011Finiz b\xFCy\xFCk bir hedefi veya zorlu bir
+    yolculu\u011Fu g\xF6sterebilir. Ancak bu ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar
+    ve zaferler kazanma potansiyelinizi de hat\u0131rlat\u0131yor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir kalp fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. Kalp, sevgiyi, duygusal ba\u011Flar\u0131
+    ve ili\u015Fkileri temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi
+    veya mevcut ili\u015Fkilerinizi daha da g\xFC\xE7lendirmek isteyebilirsiniz.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir y\u0131ld\u0131z fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131
+    ve gelecekteki f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde
+    parlak bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret
+    edebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle
+    kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size
+    ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir ku\u011Fu fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. Ku\u011Fular zarafeti, g\xFCzelli\u011Fi
+    ve i\xE7sel de\u011Fi\u015Fimi temsil ederler. Bu, sizin hayat\u0131n\u0131zda
+    bir d\xF6n\xFC\u015F\xFCm ya\u015Fama veya daha zarif bir yol izleme ihtiyac\u0131n\u0131
+    g\xF6sterebilir. Kendinizi daha fazla ifade etmek veya sanatsal yarat\u0131c\u0131l\u0131\u011F\u0131n\u0131z\u0131
+    ke\u015Ffetmek isteyebilirsiniz. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi sembolize ederler.
+    Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya
+    ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir yelkenli gemi fig\xFCr\xFC belirginle\u015Fiyor gibi. Yelkenli gemi, bir
+    yolculu\u011Fa \xE7\u0131kmay\u0131 ve yeni yerler ke\u015Ffetmeyi simgeler.
+    Bu, size yak\u0131n gelecekte bir seyahat plan\u0131 yapma veya yeni bir deneyim
+    ya\u015Fama f\u0131rsat\u0131 sunabilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir g\xFCne\u015F fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif enerjiyi temsil eder. Bu,
+    gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu i\u015Faret edebilir.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir kap\u0131 fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Kap\u0131lar yeni ba\u015Flang\u0131\xE7lar\u0131,
+    f\u0131rsatlar\u0131 ve ke\u015Fifleri temsil ederler. Bu kap\u0131n\u0131n sizin
+    i\xE7in a\xE7\u0131ld\u0131\u011F\u0131n\u0131 g\xF6steriyor olabilir, bu nedenle
+    cesurca ad\u0131m atmak ve yeni maceralara yolculuk yapmak i\xE7in haz\u0131r
+    olun. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle
+    kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size
+    ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir kalp fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131
+    ve ili\u015Fkileri temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi
+    veya mevcut ili\u015Fkilerinizi daha da g\xFC\xE7lendirmek isteyebilirsiniz.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir \xE7i\xE7ek fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. \xC7i\xE7ekler genellikle b\xFCy\xFCmeyi, yeniden
+    do\u011Fu\u015Fu ve g\xFCzelli\u011Fi sembolize ederler. Bu, sizin hayat\u0131n\u0131zda
+    yeni bir d\xF6neme girebilece\u011Finizi veya ki\u015Fisel olarak b\xFCy\xFCme
+    f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi g\xF6sterebilir.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir deniz kabu\u011Fu fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Deniz kabu\u011Fu, i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi
+    ke\u015Ffetme veya gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131
+    g\xF6sterebilir. \u0130\xE7sel bilgelik ve derinlik aray\u0131\u015F\u0131nda
+    olabilirsiniz. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat
+    \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir ku\u011Fu fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Ku\u011Fular zarafeti, g\xFCzelli\u011Fi ve i\xE7sel de\u011Fi\u015Fimi
+    temsil ederler. Bu, sizin hayat\u0131n\u0131zda bir d\xF6n\xFC\u015F\xFCm ya\u015Fama
+    veya daha zarif bir yol izleme ihtiyac\u0131n\u0131 g\xF6sterebilir. Kendinizi
+    daha fazla ifade etmek veya sanatsal yarat\u0131c\u0131l\u0131\u011F\u0131n\u0131z\u0131
+    ke\u015Ffetmek isteyebilirsiniz. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor gibi. Y\u0131ld\u0131zlar,
+    umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki f\u0131rsatlar\u0131 temsil
+    ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak bir gelece\u011Fin ve
+    ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir. @ @Kahve fal\u0131
+    yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize
+    de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi
+    \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir deniz kabu\u011Fu fig\xFCr\xFC belirginle\u015Fiyor gibi. Deniz kabu\u011Fu,
+    i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi ke\u015Ffetme veya
+    gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131 g\xF6sterebilir.
+    @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor.
+    Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve
+    de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir g\xFCne\u015F fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif enerjiyi temsil eder. Bu,
+    gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu i\u015Faret edebilir.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir ku\u011Fu fig\xFCr\xFC
+    g\xF6r\xFCn\xFCyor gibi. Ku\u011Fular zarafeti, g\xFCzelli\u011Fi ve i\xE7sel
+    de\u011Fi\u015Fimi temsil ederler. Bu, sizin hayat\u0131n\u0131zda bir d\xF6n\xFC\u015F\xFCm
+    ya\u015Fama veya daha zarif bir yol izleme ihtiyac\u0131n\u0131 g\xF6sterebilir.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi.
+    Da\u011Flar, b\xFCy\xFCk zorluklar\u0131 ve hedefleri temsil ederler. Bu, size
+    kar\u015F\u0131la\u015Fabilece\u011Finiz b\xFCy\xFCk bir hedefi veya zorlu bir
+    yolculu\u011Fu g\xF6sterebilir. Ancak bu ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar
+    ve zaferler kazanma potansiyelinizi de hat\u0131rlat\u0131yor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir anahtar fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. Anahtarlar, yeni f\u0131rsatlar\u0131
+    ve \xE7\xF6z\xFCm yollar\u0131n\u0131 temsil ederler. Bu, \xF6n\xFCn\xFCzde yeni
+    kap\u0131lar\u0131 a\xE7abilece\u011Finiz ve sorunlar\u0131 \xE7\xF6zebilece\u011Finiz
+    anlam\u0131na gelebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor gibi. Y\u0131ld\u0131zlar,
+    umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki f\u0131rsatlar\u0131 temsil
+    ederler. Bu y\u0131ld\u0131z, sizin i\xE7in parlak bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n
+    yolunda oldu\u011Funuzu i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi sembolize ederler.
+    Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya
+    ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir ku\u011Fu fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    Ku\u011Fular zarafeti, g\xFCzelli\u011Fi ve i\xE7sel de\u011Fi\u015Fimi temsil
+    ederler. Bu, sizin hayat\u0131n\u0131zda bir d\xF6n\xFC\u015F\xFCm ya\u015Fama
+    veya daha zarif bir yol izleme ihtiyac\u0131n\u0131 g\xF6sterebilir. @ @Son olarak,
+    fincan\u0131n \xFCst k\u0131sm\u0131nda bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir da\u011F sil\xFCeti g\xF6r\xFCn\xFCyor gibi. Da\u011Flar, b\xFCy\xFCk zorluklar\u0131
+    ve hedefleri temsil ederler. Bu, size kar\u015F\u0131la\u015Fabilece\u011Finiz
+    b\xFCy\xFCk bir hedefi veya zorlu bir yolculu\u011Fu g\xF6sterebilir. Ancak bu
+    ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar ve zaferler kazanma potansiyelinizi
+    de hat\u0131rlat\u0131yor. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir kalp fig\xFCr\xFC belirginle\u015Fiyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131
+    ve ili\u015Fkileri temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi
+    veya mevcut ili\u015Fkilerinizi daha da g\xFC\xE7lendirmek isteyebilirsiniz.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir ku\u011Fu fig\xFCr\xFC belirginle\u015Fiyor gibi. Ku\u011Fular zarafeti,
+    g\xFCzelli\u011Fi ve i\xE7sel de\u011Fi\u015Fimi temsil ederler. Bu, sizin hayat\u0131n\u0131zda
+    bir d\xF6n\xFC\u015F\xFCm ya\u015Fama veya daha zarif bir yol izleme ihtiyac\u0131n\u0131
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir y\u0131ld\u0131z fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir kap\u0131 fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Kap\u0131lar yeni ba\u015Flang\u0131\xE7lar\u0131,
+    f\u0131rsatlar\u0131 ve ke\u015Fifleri temsil ederler. Bu kap\u0131n\u0131n sizin
+    i\xE7in a\xE7\u0131ld\u0131\u011F\u0131n\u0131 g\xF6steriyor olabilir, bu nedenle
+    cesurca ad\u0131m atmak ve yeni maceralara yolculuk yapmak i\xE7in haz\u0131r
+    olun. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle
+    kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size
+    ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi.
+    Da\u011Flar, b\xFCy\xFCk zorluklar\u0131 ve hedefleri temsil ederler. Bu, size
+    kar\u015F\u0131la\u015Fabilece\u011Finiz b\xFCy\xFCk bir hedefi veya zorlu bir
+    yolculu\u011Fu g\xF6sterebilir. Ancak bu ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar
+    ve zaferler kazanma potansiyelinizi de hat\u0131rlat\u0131yor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir kalp fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131
+    ve ili\u015Fkileri temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi
+    veya mevcut ili\u015Fkilerinizi daha da g\xFC\xE7lendirmek isteyebilirsiniz.
+    @ @Son olarak, fincan\u0131n \xFCst\xFCnde bir ku\u015F fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi ve yeni perspektifleri
+    temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselmeye devam edebilece\u011Finizi i\u015Faret edebilir. @ @Kahve fal\u0131
+    yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize
+    de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi
+    \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir kap\u0131 fig\xFCr\xFC belirginle\u015Fiyor gibi. Kap\u0131lar yeni ba\u015Flang\u0131\xE7lar\u0131,
+    f\u0131rsatlar\u0131 ve ke\u015Fifleri temsil ederler. Bu kap\u0131n\u0131n sizin
+    i\xE7in a\xE7\u0131ld\u0131\u011F\u0131n\u0131 g\xF6steriyor olabilir, bu nedenle
+    cesurca ad\u0131m atmak ve yeni maceralara yolculuk yapmak i\xE7in haz\u0131r
+    olun. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor.
+    Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve
+    de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir \xE7i\xE7ek fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. \xC7i\xE7ekler genellikle b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi
+    sembolize ederler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir g\xFCne\u015F
+    fig\xFCr\xFC belirginle\u015Fiyor gibi. G\xFCne\u015F, ayd\u0131nl\u0131k, umut
+    ve pozitif enerjiyi temsil eder. Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k
+    oldu\u011Funu i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik
+    ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir g\xFCne\u015F fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. G\xFCne\u015F, ayd\u0131nl\u0131k,
+    umut ve pozitif enerjiyi temsil eder. Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k
+    oldu\u011Funu i\u015Faret edebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir ku\u015F fig\xFCr\xFC belirginle\u015Fiyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC,
+    y\xFCkseli\u015Fi ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz
+    ve ba\u015Far\u0131lar\u0131n\u0131zla y\xFCkselmeye devam edebilece\u011Finizi
+    i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!     "
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir gemi fig\xFCr\xFC belirginle\u015Fiyor gibi. Gemi, bir yolculu\u011Fa \xE7\u0131kmay\u0131
+    ve yeni yerler ke\u015Ffetmeyi simgeler. Bu, size yak\u0131n gelecekte bir seyahat
+    plan\u0131 yapma veya yeni bir deneyim ya\u015Fama f\u0131rsat\u0131 sunabilir.
+    @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor.
+    Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve
+    de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir y\u0131ld\u0131z fig\xFCr\xFC var gibi
+    g\xF6r\xFCn\xFCyor. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131
+    ve gelecekteki f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde
+    parlak bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret
+    edebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir kalp fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131 ve ili\u015Fkileri
+    temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi veya mevcut ili\u015Fkilerinizi
+    daha da g\xFC\xE7lendirmek isteyebilirsiniz. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. \xC7i\xE7ekler genellikle b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi
+    sembolize ederler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir g\xFCne\u015F fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif enerjiyi temsil eder. Bu,
+    gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu i\u015Faret edebilir.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir ku\u015F fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi
+    ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselebilece\u011Finizi i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar, size yeni f\u0131rsatlarla
+    kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir.
+    Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde
+    tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir kalp fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi.
+    Kalp, sevgiyi, duygusal ba\u011Flar\u0131 ve ili\u015Fkileri temsil eder. Bu,
+    duygusal bir d\xF6nemde olabilece\u011Finizi veya mevcut ili\u015Fkilerinizi
+    daha da g\xFC\xE7lendirmek isteyebilirsiniz. @ @Son olarak, fincan\u0131n \xFCst
+    k\u0131sm\u0131nda bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki f\u0131rsatlar\u0131
+    temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak bir gelece\u011Fin
+    ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir. @ @Kahve fal\u0131
+    yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize
+    de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi
+    \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir kap\u0131 fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Kap\u0131lar yeni ba\u015Flang\u0131\xE7lar\u0131, f\u0131rsatlar\u0131 ve ke\u015Fifleri
+    temsil ederler. Bu kap\u0131n\u0131n sizin i\xE7in a\xE7\u0131ld\u0131\u011F\u0131n\u0131
+    g\xF6steriyor olabilir, bu nedenle cesurca ad\u0131m atmak ve yeni maceralara
+    yolculuk yapmak i\xE7in haz\u0131r olun. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir g\xFCne\u015F fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif enerjiyi temsil eder. Bu,
+    gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu i\u015Faret edebilir.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir ku\u015F fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi
+    ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselmeye devam edebilece\u011Finizi i\u015Faret edebilir. @ @Kahve fal\u0131
+    yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize
+    de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi
+    \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir deniz kabu\u011Fu fig\xFCr\xFC belirginle\u015Fiyor gibi. Deniz kabu\u011Fu,
+    i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi ke\u015Ffetme veya
+    gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131 g\xF6sterebilir.
+    @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor.
+    Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve
+    de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir ku\u011Fu fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Ku\u011Fular zarafeti, g\xFCzelli\u011Fi ve i\xE7sel de\u011Fi\u015Fimi
+    temsil ederler. Bu, sizin hayat\u0131n\u0131zda bir d\xF6n\xFC\u015F\xFCm ya\u015Fama
+    veya daha zarif bir yol izleme ihtiyac\u0131n\u0131 g\xF6sterebilir. @ @Son olarak,
+    fincan\u0131n \xFCst k\u0131sm\u0131nda bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi.
+    Da\u011Flar, b\xFCy\xFCk zorluklar\u0131 ve hedefleri temsil ederler. Bu, size
+    kar\u015F\u0131la\u015Fabilece\u011Finiz b\xFCy\xFCk bir hedefi veya zorlu bir
+    yolculu\u011Fu g\xF6sterebilir. Ancak bu ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar
+    ve zaferler kazanma potansiyelinizi de hat\u0131rlat\u0131yor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir \xE7i\xE7ek fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi sembolize ederler.
+    Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya
+    ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir kalp
+    fig\xFCr\xFC belirginle\u015Fiyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131
+    ve ili\u015Fkileri temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi
+    veya mevcut ili\u015Fkilerinizi daha da g\xFC\xE7lendirmek isteyebilirsiniz.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir gemi fig\xFCr\xFC belirginle\u015Fiyor gibi. Gemi,
+    bir yolculu\u011Fa \xE7\u0131kmay\u0131 ve yeni yerler ke\u015Ffetmeyi simgeler.
+    Bu, size yak\u0131n gelecekte bir seyahat plan\u0131 yapma veya yeni bir deneyim
+    ya\u015Fama f\u0131rsat\u0131 sunabilir. @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131
+    \xE7izgiler h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F
+    \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine i\u015Faret
+    edebilir. Ancak bu dalgalanmalar\u0131n sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi
+    unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren bir kalp fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131 ve ili\u015Fkileri temsil eder.
+    Bu, duygusal bir d\xF6nemde olabilece\u011Finizi veya mevcut ili\u015Fkilerinizi
+    daha da g\xFC\xE7lendirmek isteyebilirsiniz. @ @Son olarak, fincan\u0131n \xFCst\xFCnde
+    bir ku\u015F fig\xFCr\xFC belirginle\u015Fiyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC,
+    y\xFCkseli\u015Fi ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz
+    ve ba\u015Far\u0131lar\u0131n\u0131zla y\xFCkselmeye devam edebilece\u011Finizi
+    i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor gibi. Y\u0131ld\u0131zlar,
+    umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki f\u0131rsatlar\u0131 temsil
+    ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak bir gelece\u011Fin ve
+    ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir deniz kabu\u011Fu fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. Deniz kabu\u011Fu,
+    i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi ke\u015Ffetme veya
+    gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131 g\xF6sterebilir.
+    @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir g\xFCne\u015F fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif
+    enerjiyi temsil eder. Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu
+    i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir g\xFCne\u015F fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. G\xFCne\u015F, ayd\u0131nl\u0131k,
+    umut ve pozitif enerjiyi temsil eder. Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k
+    oldu\u011Funu i\u015Faret edebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi sembolize ederler.
+    Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya
+    ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir ku\u011Fu fig\xFCr\xFC belirginle\u015Fiyor gibi. Ku\u011Fular zarafeti,
+    g\xFCzelli\u011Fi ve i\xE7sel de\u011Fi\u015Fimi temsil ederler. Bu, sizin hayat\u0131n\u0131zda
+    bir d\xF6n\xFC\u015F\xFCm ya\u015Fama veya daha zarif bir yol izleme ihtiyac\u0131n\u0131
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir anahtar fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Son olarak,
+    fincan\u0131n \xFCst k\u0131sm\u0131nda bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir deniz kabu\u011Fu fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Deniz kabu\u011Fu, i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi
+    ke\u015Ffetme veya gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir gemi fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi.
+    Gemi, bir yolculu\u011Fa \xE7\u0131kmay\u0131 ve yeni yerler ke\u015Ffetmeyi
+    simgeler. Bu, size yak\u0131n gelecekte bir seyahat plan\u0131 yapma veya yeni
+    bir deneyim ya\u015Fama f\u0131rsat\u0131 sunabilir. @ @Son olarak, fincan\u0131n
+    \xFCst k\u0131sm\u0131nda bir ku\u015F fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi ve yeni perspektifleri
+    temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselebilece\u011Finizi i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir kalp fig\xFCr\xFC belirginle\u015Fiyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131
+    ve ili\u015Fkileri temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi
+    veya mevcut ili\u015Fkilerinizi daha da g\xFC\xE7lendirmek isteyebilece\u011Finizi
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir anahtar fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Son olarak,
+    fincan\u0131n \xFCst k\u0131sm\u0131nda bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir deniz kabu\u011Fu fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Deniz kabu\u011Fu, i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi
+    ke\u015Ffetme veya gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir \xE7i\xE7ek fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. \xC7i\xE7ekler genellikle b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi
+    sembolize ederler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Son olarak, fincan\u0131n \xFCst\xFCnde bir ku\u015F fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi
+    ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselebilece\u011Finizi i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi. Da\u011Flar, b\xFCy\xFCk zorluklar\u0131
+    ve hedefleri temsil ederler. Bu, size kar\u015F\u0131la\u015Fabilece\u011Finiz
+    b\xFCy\xFCk bir hedefi veya zorlu bir yolculu\u011Fu g\xF6sterebilir. Ancak bu
+    ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar ve zaferler kazanma potansiyelinizi
+    de hat\u0131rlat\u0131yor. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir ku\u015F fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi ve yeni perspektifleri
+    temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselmeye devam edebilece\u011Finizi i\u015Faret edebilir. @ @Son olarak,
+    fincan\u0131n \xFCst k\u0131sm\u0131nda bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. \xC7i\xE7ekler genellikle b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi
+    sembolize ederler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi sembolize ederler.
+    Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya
+    ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131 \xE7izgiler
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir gemi fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi.
+    Gemi, bir yolculu\u011Fa \xE7\u0131kmay\u0131 ve yeni yerler ke\u015Ffetmeyi
+    simgeler. Bu, size yak\u0131n gelecekte bir seyahat plan\u0131 yapma veya yeni
+    bir deneyim ya\u015Fama f\u0131rsat\u0131 sunabilir. @ @Son olarak, fincan\u0131n
+    \xFCst k\u0131sm\u0131nda bir g\xFCne\u015F fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif enerjiyi temsil eder.
+    Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu i\u015Faret
+    edebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle
+    kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size
+    ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir ku\u015F fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC,
+    y\xFCkseli\u015Fi ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz
+    ve ba\u015Far\u0131lar\u0131n\u0131zla y\xFCkselmeye devam edebilece\u011Finizi
+    i\u015Faret edebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor gibi. Y\u0131ld\u0131zlar,
+    umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki f\u0131rsatlar\u0131 temsil
+    ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak bir gelece\u011Fin ve
+    ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir. @ @Kahve fal\u0131
+    yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize
+    de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi
+    \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi.
+    Da\u011Flar, b\xFCy\xFCk zorluklar\u0131 ve hedefleri temsil ederler. Bu, size
+    kar\u015F\u0131la\u015Fabilece\u011Finiz b\xFCy\xFCk bir hedefi veya zorlu bir
+    yolculu\u011Fu g\xF6sterebilir. Ancak bu ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar
+    ve zaferler kazanma potansiyelinizi de hat\u0131rlat\u0131yor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha da g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir a\u011Fa\xE7 fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. A\u011Fa\xE7lar, b\xFCy\xFCmeyi,
+    k\xF6k salmay\u0131 ve sabr\u0131 simgelerler. Bu, size uzun vadeli hedeflere
+    ula\u015Fma ve sa\u011Flam temeller \xFCzerine in\u015Fa etme f\u0131rsat\u0131
+    sunabilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir kalp fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131 ve ili\u015Fkileri
+    temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi veya mevcut ili\u015Fkilerinizi
+    daha da g\xFC\xE7lendirmek isteyebilece\u011Finizi g\xF6sterebilir. @ @Kahve
+    fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel
+    sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir.
+    \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir kalp fig\xFCr\xFC belirginle\u015Fiyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131
+    ve ili\u015Fkileri temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi
+    veya mevcut ili\u015Fkilerinizi daha da g\xFC\xE7lendirmek isteyebilece\u011Finizi
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131 \xE7izgiler
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir anahtar fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Son olarak,
+    fincan\u0131n \xFCst k\u0131sm\u0131nda bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi
+    i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham
+    vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar, size yeni f\u0131rsatlarla
+    kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir.
+    Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde
+    tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha da g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir ku\u015F fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi ve yeni perspektifleri
+    temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselebilece\u011Finizi i\u015Faret edebilir. @ @Son olarak, fincan\u0131n
+    \xFCst k\u0131sm\u0131nda bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    \xC7i\xE7ekler genellikle b\xFCy\xFCmeyi, yeniden do\u011Fu\u015Fu ve g\xFCzelli\u011Fi
+    sembolize ederler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131 \xE7izgiler h\xE2l\xE2 dikkat
+    \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir gemi fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi.
+    Gemi, bir yolculu\u011Fa \xE7\u0131kmay\u0131 ve yeni yerler ke\u015Ffetmeyi
+    simgeler. Bu, size yak\u0131n gelecekte bir seyahat plan\u0131 yapma veya yeni
+    bir deneyim ya\u015Fama f\u0131rsat\u0131 sunabilir. @ @Son olarak, fincan\u0131n
+    \xFCst\xFCnde bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi. \xC7i\xE7ekler
+    genellikle b\xFCy\xFCme, yeniden do\u011Fu\u015F ve g\xFCzellik sembol\xFCd\xFCrler.
+    Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya
+    ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi.
+    Da\u011Flar, b\xFCy\xFCk zorluklar\u0131 ve hedefleri temsil ederler. Bu, size
+    kar\u015F\u0131la\u015Fabilece\u011Finiz b\xFCy\xFCk bir hedefi veya zorlu bir
+    yolculu\u011Fu g\xF6sterebilir. Ancak bu ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar
+    ve zaferler kazanma potansiyelinizi de hat\u0131rlat\u0131yor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgal\u0131 \xE7izgiler h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi daha g\xFC\xE7l\xFC
+    k\u0131laca\u011F\u0131n\u0131 ve b\xFCy\xFCtece\u011Fini unutmay\u0131n. @ @Fincan\u0131n
+    i\xE7inde beliren bir a\u011Fa\xE7 fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. A\u011Fa\xE7lar,
+    b\xFCy\xFCmeyi, k\xF6k salmay\u0131 ve sabr\u0131 simgelerler. Bu, size uzun
+    vadeli hedeflere ula\u015Fma ve sa\u011Flam temeller \xFCzerine in\u015Fa etme
+    f\u0131rsat\u0131 sunabilir. @ @Son olarak, fincan\u0131n \xFCst\xFCnde bir kalp
+    fig\xFCr\xFC belirginle\u015Fiyor gibi. Kalp, sevgiyi, duygusal ba\u011Flar\u0131
+    ve ili\u015Fkileri temsil eder. Bu, duygusal bir d\xF6nemde olabilece\u011Finizi
+    veya mevcut ili\u015Fkilerinizi g\xFC\xE7lendirme iste\u011Fi duydu\u011Funuzu
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir gemi fig\xFCr\xFC belirginle\u015Fiyor gibi. Gemi, bir yolculu\u011Fa \xE7\u0131kmay\u0131
+    ve yeni yerler ke\u015Ffetmeyi simgeler. Bu, size yak\u0131n gelecekte bir seyahat
+    plan\u0131 yapma veya yeni bir deneyim ya\u015Fama f\u0131rsat\u0131 sunabilir.
+    @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor.
+    Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve
+    de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve dengenizi bulman\u0131za yard\u0131mc\u0131 olaca\u011F\u0131n\u0131
+    unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren bir ku\u015F fig\xFCr\xFC
+    g\xF6r\xFCn\xFCyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi
+    ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselebilece\u011Finizi i\u015Faret edebilir. @ @Son olarak, fincan\u0131n
+    \xFCst\xFCnde bir g\xFCne\u015F fig\xFCr\xFC belirginle\u015Fiyor gibi. G\xFCne\u015F,
+    ayd\u0131nl\u0131k, umut ve pozitif enerjiyi temsil eder. Bu, gelece\u011Finizin
+    parlak ve ayd\u0131nl\u0131k oldu\u011Funu i\u015Faret edebilir. @ @Kahve fal\u0131
+    yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize
+    de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi
+    \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir kalp fig\xFCr\xFC belirginle\u015Fiyor gibi. Kalp,
+    sevgiyi, duygusal ba\u011Flar\u0131 ve ili\u015Fkileri temsil eder. Bu, duygusal
+    bir d\xF6nemde olabilece\u011Finizi veya yeni bir ili\u015Fkiye ba\u015Flama
+    f\u0131rsat\u0131n\u0131 g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda
+    dalgal\u0131 \xE7izgiler h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n
+    ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine i\u015Faret
+    edebilir. Ancak bu dalgalanmalar\u0131n sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi
+    unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren bir anahtar fig\xFCr\xFC var
+    gibi g\xF6r\xFCn\xFCyor. Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131
+    a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki
+    ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde tutuyorsunuz
+    gibi g\xF6r\xFCn\xFCyor. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor gibi. Y\u0131ld\u0131zlar,
+    umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki f\u0131rsatlar\u0131 temsil
+    ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak bir gelece\u011Fin ve
+    ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir. @ @Kahve fal\u0131
+    yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize
+    de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi
+    \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir deniz kabu\u011Fu fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Deniz kabu\u011Fu, i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi
+    ke\u015Ffetme veya gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131
+    g\xF6sterebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131 \xE7izgiler
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir ku\u015F fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC ve y\xFCkseli\u015Fi temsil ederler.
+    Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla y\xFCkselebilece\u011Finizi
+    g\xF6steriyor olabilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCme, yeniden do\u011Fu\u015F ve g\xFCzellik sembol\xFCd\xFCrler. Bu,
+    sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya ki\u015Fisel
+    olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi b\xFCy\xFCtece\u011Fini
+    ve g\xFC\xE7lendirece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir ku\u015F fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC,
+    y\xFCkseli\u015Fi ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz
+    ve ba\u015Far\u0131lar\u0131n\u0131zla y\xFCkselebilece\u011Finizi i\u015Faret
+    edebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir g\xFCne\u015F
+    fig\xFCr\xFC belirginle\u015Fiyor gibi. G\xFCne\u015F, ayd\u0131nl\u0131k, umut
+    ve pozitif enerjiyi temsil eder. Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k
+    oldu\u011Funu i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik
+    ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli hareketlerini izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar, size yeni f\u0131rsatlarla
+    kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir.
+    Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde
+    tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar
+    h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir \xE7i\xE7ek fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. \xC7i\xE7ekler genellikle b\xFCy\xFCme, yeniden do\u011Fu\u015F ve g\xFCzellik
+    sembol\xFCd\xFCrler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Son olarak, fincan\u0131n \xFCst\xFCnde bir ku\u015F fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC, y\xFCkseli\u015Fi
+    ve yeni perspektifleri temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselebilece\u011Finizi i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131
+    sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131 \xE7izgiler h\xE2l\xE2 dikkat
+    \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir ku\u015F fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC ve y\xFCkseli\u015Fi temsil ederler.
+    Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla y\xFCkselebilece\u011Finizi
+    g\xF6steriyor olabilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar, size yeni f\u0131rsatlarla
+    kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir.
+    Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde
+    tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Kahve fal\u0131 yorumlar\u0131 sembolik
+    ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz.
+    Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibindeki desenlerde bir k\xF6pr\xFC fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    K\xF6pr\xFCler, farkl\u0131 d\xFCnyalar\u0131 birle\u015Ftiren ve ba\u011Flant\u0131lar\u0131
+    temsil eden sembollerdir. Bu, size yeni insanlarla tan\u0131\u015Fma veya mevcut
+    ili\u015Fkileri g\xFC\xE7lendirme f\u0131rsat\u0131 sunabilir. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgal\u0131 \xE7izgiler h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir a\u011Fa\xE7 fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. A\u011Fa\xE7lar, b\xFCy\xFCmeyi,
+    k\xF6k salmay\u0131 ve sabr\u0131 sembolize ederler. Bu, size uzun vadeli hedeflere
+    ula\u015Fma ve sa\u011Flam temeller \xFCzerine in\u015Fa etme f\u0131rsat\u0131
+    sunabilir. @ @Son olarak, fincan\u0131n \xFCst\xFCnde bir g\xFCne\u015F fig\xFCr\xFC
+    belirginle\u015Fiyor gibi. G\xFCne\u015F, ayd\u0131nl\u0131k, umut ve pozitif
+    enerjiyi temsil eder. Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu
+    i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    hareketlerini izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde bir kale
+    fig\xFCr\xFC belirginle\u015Fiyor gibi. Kaleler, g\xFCvenli\u011Fi ve korumay\u0131
+    simgelerler. Bu, size yak\u0131n zamanda kendinizi korumak veya g\xFCvende hissetmek
+    i\xE7in \xF6nlemler alman\u0131z gerekebilece\u011Fini g\xF6sterebilir. @ @Fincan\u0131n
+    kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar,
+    hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine
+    i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n sizi g\xFC\xE7lendirece\u011Fini
+    ve b\xFCy\xFCtece\u011Finizi unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren
+    bir anahtar fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. Bu anahtar, size yeni f\u0131rsatlarla
+    kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir.
+    Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n anahtar\u0131n\u0131 elinizde
+    tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda
+    bir \xE7i\xE7ek fig\xFCr\xFC belirginle\u015Fiyor gibi. \xC7i\xE7ekler genellikle
+    b\xFCy\xFCme, yeniden do\u011Fu\u015F ve g\xFCzellik sembol\xFCd\xFCrler. Bu,
+    sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi veya ki\u015Fisel
+    olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu
+    yorum size ilham vermi\u015Ftir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli hareketlerini izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir deniz kabu\u011Fu fig\xFCr\xFC belirginle\u015Fiyor gibi. Deniz kabu\u011Fu,
+    i\xE7sel hazineyi temsil eder. Bu, i\xE7sel potansiyelinizi ke\u015Ffetme veya
+    gizli yeteneklerinizi ortaya \xE7\u0131karma f\u0131rsat\u0131n\u0131 g\xF6sterebilir.
+    @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131 \xE7izgiler h\xE2l\xE2 dikkat
+    \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve hayat\u0131n\u0131zdaki dengenin bir par\xE7as\u0131
+    oldu\u011Funu unutmay\u0131n. @ @Fincan\u0131n i\xE7inde beliren bir ku\u015F
+    fig\xFCr\xFC g\xF6r\xFCn\xFCyor gibi. Ku\u015Flar \xF6zg\xFCrl\xFC\u011F\xFC
+    ve y\xFCkseli\u015Fi temsil ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla
+    y\xFCkselebilece\u011Finizi g\xF6steriyor olabilir. @ @Son olarak, fincan\u0131n
+    \xFCst\xFCnde bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar,
+    size kap\u0131lar\u0131 a\xE7ma ve yeni f\u0131rsatlarla kar\u015F\u0131la\u015Fma
+    yetene\u011Fi sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Kahve
+    fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel
+    sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir.
+    \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir y\u0131ld\u0131z fig\xFCr\xFC belirginle\u015Fiyor
+    gibi. Y\u0131ld\u0131zlar, umudu, ayd\u0131nl\u0131\u011F\u0131 ve gelecekteki
+    f\u0131rsatlar\u0131 temsil ederler. Bu y\u0131ld\u0131z, \xF6n\xFCn\xFCzde parlak
+    bir gelece\u011Fin ve ba\u015Far\u0131lar\u0131n oldu\u011Funu i\u015Faret edebilir.
+    @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131 \xE7izgiler h\xE2l\xE2 dikkat
+    \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi b\xFCy\xFCtece\u011Fini ve g\xFC\xE7lendirece\u011Finizi unutmay\u0131n.
+    @ @Fincan\u0131n i\xE7inde beliren bir a\u011Fa\xE7 fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. A\u011Fa\xE7lar genellikle b\xFCy\xFCmeyi, k\xF6k salmay\u0131 ve sabr\u0131
+    simgelerler. Bu, size uzun vadeli hedeflere ula\u015Fma ve sa\u011Flam temeller
+    \xFCzerine in\u015Fa etme f\u0131rsat\u0131 sunabilir. @ @Son olarak, fincan\u0131n
+    \xFCst k\u0131sm\u0131nda bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve yeni deneyimlere
+    ad\u0131m atma yetene\u011Fi verebilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Kahve
+    fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel
+    sezgilerinize de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir.
+    \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    ilgin\xE7 \u015Fekiller olu\u015Fturdu\u011Funu hissediyorum: @ @Fincan\u0131n
+    dibinde beliren desenlerde bir gemi fig\xFCr\xFC belirginle\u015Fiyor gibi. Gemi,
+    bir yolculu\u011Fa \xE7\u0131kmay\u0131 ve yeni yerler ke\u015Ffetmeyi simgeler.
+    Bu, size yak\u0131n gelecekte bir seyahat plan\u0131 yapma veya yeni bir deneyim
+    ya\u015Fama f\u0131rsat\u0131 sunabilir. @ @Fincan\u0131n kenarlar\u0131nda dalgal\u0131
+    \xE7izgiler h\xE2l\xE2 dikkat \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F
+    \xE7\u0131k\u0131\u015Flar\u0131na ve de\u011Fi\u015Fikliklerine i\u015Faret
+    edebilir. Ancak bu dalgalanmalar\u0131n sizi b\xFCy\xFCtece\u011Fini ve dengenizi
+    bulman\u0131za yard\u0131mc\u0131 olaca\u011F\u0131n\u0131 unutmay\u0131n. @
+    @Fincan\u0131n i\xE7inde beliren bir anahtar fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor.
+    Bu anahtar, size yeni f\u0131rsatlarla kap\u0131lar\u0131 a\xE7ma ve b\xFCy\xFCme
+    yolunda ilerleme f\u0131rsat\u0131 sunabilir. Gelecekteki ba\u015Far\u0131lar\u0131n\u0131z\u0131n
+    anahtar\u0131n\u0131 elinizde tutuyorsunuz gibi g\xF6r\xFCn\xFCyor. @ @Son olarak,
+    fincan\u0131n \xFCst\xFCnde bir ku\u015F fig\xFCr\xFC belirginle\u015Fiyor gibi.
+    Ku\u015Flar genellikle \xF6zg\xFCrl\xFC\u011F\xFC ve y\xFCkseli\u015Fi temsil
+    ederler. Bu, sizin ilerlemeniz ve ba\u015Far\u0131lar\u0131n\u0131zla y\xFCkselebilece\u011Finizi
+    g\xF6steriyor olabilir. @ @Kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir,
+    bu nedenle kendi i\xE7sel sezg"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131ndaki \xE7ekirdeklerin
+    gizemli dans\u0131n\u0131 izliyorum: @ @Fincan\u0131n dibinde beliren desenlerde
+    bir da\u011F sil\xFCeti belirginle\u015Fiyor gibi. Bu da\u011F, size kar\u015F\u0131la\u015Fabilece\u011Finiz
+    b\xFCy\xFCk bir hedefi veya zorlu bir yolculu\u011Fu temsil edebilir. Ancak bu
+    ayn\u0131 zamanda size b\xFCy\xFCk ba\u015Far\u0131lar ve zaferler kazanma potansiyelinizi
+    de g\xF6steriyor. @ @Fincan\u0131n kenarlar\u0131ndaki dalgalanmalar h\xE2l\xE2
+    dikkat \xE7ekiyor. Bu dalgalanmalar, ya\u015Fam\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fimlerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Fini unutmay\u0131n. @
+    @Fincan\u0131n i\xE7inde beliren bir \xE7i\xE7ek fig\xFCr\xFC g\xF6r\xFCn\xFCyor
+    gibi. \xC7i\xE7ekler genellikle b\xFCy\xFCme, yeniden do\u011Fu\u015F ve g\xFCzellik
+    sembol\xFCd\xFCrler. Bu, sizin hayat\u0131n\u0131zda yeni bir d\xF6neme girebilece\u011Finizi
+    veya ki\u015Fisel olarak b\xFCy\xFCme f\u0131rsatlar\u0131n\u0131 de\u011Ferlendirebilece\u011Finizi
+    g\xF6sterebilir. @ @Son olarak, fincan\u0131n \xFCst k\u0131sm\u0131nda bir g\xFCne\u015F
+    fig\xFCr\xFC belirginle\u015Fiyor gibi. G\xFCne\u015F, ayd\u0131nl\u0131k ve
+    umudu temsil eder. Bu, gelece\u011Finizin parlak ve ayd\u0131nl\u0131k oldu\u011Funu
+    i\u015Faret edebilir. @ @Unutmay\u0131n ki kahve fal\u0131 yorumlar\u0131 ki\u015Fiseldir
+    ve semboller farkl\u0131 \u015Fekillerde yorumlanabilir. Bu yorumlar size ilham
+    verirken, kendi i\xE7sel sezgilerinize de g\xFCvenmelisiniz. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fincan\u0131n\u0131z\u0131n i\xE7indeki
+    \u015Fekilleri incelemeye ba\u015Fl\u0131yorum: @ @Fincan\u0131n dibinde, bir
+    nehir veya dere gibi dalgal\u0131 \xE7izgiler belirginle\u015Fiyor. Bu, duygusal
+    bir yolculu\u011Fa \xE7\u0131km\u0131\u015F olabilece\u011Finizi veya duygusal
+    olarak dalgalanmalar ya\u015Fad\u0131\u011F\u0131n\u0131z\u0131 g\xF6sterebilir.
+    Ancak bu dalgalanmalar, duygusal b\xFCy\xFCme ve dengenizi bulma s\xFCrecinin
+    bir par\xE7as\u0131 olabilir. @ @Fincan\u0131n i\xE7inde bir at fig\xFCr\xFC
+    beliriyor gibi. Atlar \xF6zg\xFCrl\xFC\u011F\xFC, hareketi ve g\xFCc\xFC temsil
+    ederler. Bu, size yak\u0131n zamanda yeni f\u0131rsatlarla kar\u015F\u0131la\u015Fabilece\u011Finizi
+    veya hayat\u0131n\u0131zdaki bir projeyi ba\u015Flatma iste\u011Fi duydu\u011Funuzu
+    g\xF6sterebilir. @ @Fincan\u0131n kenar\u0131nda ise y\u0131ld\u0131z \u015Fekilleri
+    dikkat \xE7ekiyor gibi. Y\u0131ld\u0131zlar, umudu ve ayd\u0131nl\u0131\u011F\u0131
+    temsil ederler. Bu, gelece\u011Fe dair parlak f\u0131rsatlar ve ba\u015Far\u0131lar\u0131n
+    sizi bekledi\u011Fini i\u015Faret edebilir. @ @Son olarak, fincan\u0131n \xFCst\xFCnde
+    bir anahtar fig\xFCr\xFC belirginle\u015Fiyor gibi. Bu anahtar, size kap\u0131lar\u0131
+    a\xE7ma ve yeni deneyimlere ad\u0131m atma yetene\u011Fi sunabilir. Gelecekte
+    sizi heyecan verici ke\u015Fifler ve maceralar bekliyor olabilir. @ @Kahve fal\u0131
+    yorumlar\u0131 sembolik ve ki\u015Fiseldir, bu nedenle kendi i\xE7sel sezgilerinize
+    de g\xFCvenmelisiniz. Umar\u0131m bu yorum size ilham vermi\u015Ftir. \u0130yi
+    \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fal\u0131 taba\u011F\u0131nda \xE7ekirdeklerin
+    ilgin\xE7 bir \u015Fekilde birle\u015Fti\u011Fini hissediyorum. \u015Eimdi size
+    bir ba\u015Fka kahve fal\u0131 yorumu sunay\u0131m: @ @Fincan\u0131n i\xE7indeki
+    kahve tortular\u0131, sanki bir \xE7i\xE7ek buketi \u015Feklini al\u0131yor gibi.
+    Bu, ya\u015Fam\u0131n\u0131za renk ve g\xFCzellik katacak g\xFCzel anlar\u0131n
+    yakla\u015Fmakta oldu\u011Funu g\xF6steriyor olabilir. Sevdiklerinizle payla\u015Fabilece\u011Finiz
+    mutlu anlar sizi bekliyor. @ @Fincan\u0131n dibindeki desenlerde ise bir k\xF6pr\xFC
+    fig\xFCr\xFC belirginle\u015Fiyor gibi. K\xF6pr\xFCler, farkl\u0131 d\xFCnyalar\u0131
+    birle\u015Ftiren ve ba\u011Flant\u0131lar\u0131 sembolize eder. Bu, size yeni
+    ili\u015Fkiler kurma veya mevcut ili\u015Fkilerinizi g\xFC\xE7lendirme f\u0131rsat\u0131
+    verebilir. @ @Fincan\u0131n kenarlar\u0131nda dalgalanmalar h\xE2l\xE2 dikkat
+    \xE7ekiyor. Bu dalgalanmalar, hayat\u0131n ini\u015F \xE7\u0131k\u0131\u015Flar\u0131na
+    ve de\u011Fi\u015Fikliklerine i\u015Faret edebilir. Ancak bu dalgalanmalar\u0131n
+    sizi daha g\xFC\xE7l\xFC k\u0131laca\u011F\u0131n\u0131 ve b\xFCy\xFCtece\u011Fini
+    unutmay\u0131n. @ @Son olarak, fincan\u0131n \xFCst\xFCnde beliren bir g\xFCne\u015F
+    fig\xFCr\xFC var gibi g\xF6r\xFCn\xFCyor. G\xFCne\u015F, ayd\u0131nl\u0131k ve
+    umut anlam\u0131na gelir. Bu, yak\u0131n gelecekte size g\xFCzelliklerin ve ayd\u0131nl\u0131\u011F\u0131n
+    gelece\u011Fini i\u015Faret edebilir. @ @Kahve fal\u0131 yorumlar\u0131 ki\u015Fisel
+    ve semboliktir, bu nedenle kendi i\xE7sel sezgilerinizi de g\xF6z \xF6n\xFCnde
+    bulundurmal\u0131s\u0131n\u0131z. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fal\u0131 taba\u011F\u0131ndaki \xE7ekirdeklerin
+    \xE7evresindeki dans\u0131n\u0131 izliyorum. \u015Eimdi sizin i\xE7in bir ba\u015Fka
+    kahve fal\u0131 yorumu yapay\u0131m: @ @Kahve fincan\u0131n\u0131z\u0131n i\xE7inde
+    belirgin bir \u015Fekilde bir da\u011F sil\xFCeti beliriyor gibi. Bu da\u011F,
+    kar\u015F\u0131n\u0131za \xE7\u0131kabilecek zorluklar\u0131 veya engelleri temsil
+    ediyor olabilir. Ancak bu da\u011F, ayn\u0131 zamanda m\xFCcadele ve ba\u015Far\u0131ya
+    ula\u015Fma iste\u011Finizi de g\xF6steriyor. Bu zorluklar\u0131n \xFCstesinden
+    gelebilirsiniz. @ @Fincan\u0131n kenar\u0131nda ise dalgal\u0131 bir \xE7izgi
+    g\xF6r\xFCn\xFCyor. Bu dalgal\u0131 \xE7izgi, duygusal dalgalanmalar\u0131 veya
+    ya\u015Fam\u0131n\u0131zdaki de\u011Fi\u015Fiklikleri i\u015Faret edebilir. Ancak
+    bu dalgalanmalar\u0131n sizi g\xFC\xE7lendirece\u011Fini ve b\xFCy\xFCtece\u011Fini
+    unutmay\u0131n. @ @Fincan\u0131n i\xE7indeki kahve tortular\u0131, baz\u0131
+    insanlar veya ili\u015Fkiler hakk\u0131nda ipu\xE7lar\u0131 ta\u015F\u0131yor
+    gibi g\xF6r\xFCn\xFCyor. Bu, yak\u0131n \xE7evrenizdeki insanlarla daha yak\u0131n
+    ili\u015Fkiler kurma veya baz\u0131 ili\u015Fkilerde \xF6nemli de\u011Fi\u015Fiklikler
+    ya\u015Fama f\u0131rsat\u0131n\u0131 i\u015Faret edebilir. @ @Son olarak, fincan\u0131n
+    taban\u0131nda bir anahtar \u015Fekli belirginle\u015Fiyor gibi. Bu anahtar,
+    size kap\u0131lar\u0131 a\xE7ma veya yeni f\u0131rsatlar yakalama yetene\u011Fi
+    verebilir. \xD6n\xFCn\xFCzde a\xE7\u0131lacak yeni kap\u0131lara haz\u0131r olun.
+    @ @Unutmay\u0131n ki kahve fal\u0131 yorumlar\u0131 sembolik ve ki\u015Fiseldir.
+    Bu yorumlar size ilham verebilirken, kendi i\xE7sel sezgilerinizi de dinlemek
+    \xF6nemlidir. \u0130yi \u015Fanslar!"
+  - "G\xF6r\xFCyorum, g\xF6r\xFCyorum... Kahve fal\u0131 taba\u011F\u0131nda \xE7ekirdeklerin
+    dans etti\u011Fini hissediyorum. \u0130\u015Fte fal\u0131n\u0131za ge\xE7iyorum:
+    @ @Kahve fincan\u0131n\u0131z\u0131n i\xE7indeki \u015Fekiller ve desenler olduk\xE7a
+    ilgin\xE7 g\xF6r\xFCn\xFCyor. \xD6ncelikle fincan\u0131n dibinde bir k\u0131ta
+    ya da yar\u0131mada \u015Feklinde bir desen beliriyor gibi. Bu, yak\u0131n gelecekte
+    uzak bir yolculu\u011Fa \xE7\u0131kabilece\u011Finizi veya yeni bir deneyime
+    ad\u0131m ataca\u011F\u0131n\u0131z\u0131 g\xF6steriyor olabilir. Belki de yeni
+    bir yer ke\u015Ffedeceksiniz. @ @Fincan\u0131n \xFCst k\u0131sm\u0131nda ise
+    bir ku\u015F fig\xFCr\xFC belirginle\u015Fiyor gibi. Ku\u015Flar genellikle \xF6zg\xFCrl\xFC\u011F\xFC
+    ve ileriye do\u011Fru ilerlemeyi simgelerler. Bu, sizin \xF6n\xFCn\xFCzde yeni
+    f\u0131rsatlar ve maceralar oldu\u011Funu g\xF6sterebilir. \u0130lerlemeye devam
+    etmek i\xE7in cesaretli ve \xF6zg\xFCr olmal\u0131s\u0131n\u0131z. @ @Ayr\u0131ca
+    fincan\u0131n sol taraf\u0131nda bir \xE7i\xE7ek g\xF6r\xFCn\xFCyor gibi. \xC7i\xE7ekler
+    genellikle g\xFCzellik, b\xFCy\xFCme ve yeniden do\u011Fu\u015Fun sembol\xFCd\xFCr.
+    Bu, size yak\u0131n zamanda yeni bir ba\u015Flang\u0131\xE7 yapma veya ki\u015Fisel
+    geli\u015Fim f\u0131rsat\u0131 sunulabilece\u011Fini g\xF6sterebilir. @ @Son
+    olarak, fincan\u0131n kenarlar\u0131nda dikkat \xE7eken dalgal\u0131 \xE7izgiler
+    var gibi g\xF6r\xFCn\xFCyor. Bu dalgal\u0131 \xE7izgiler, hayat\u0131n ini\u015F
+    \xE7\u0131k\u0131\u015Flar\u0131na ve dalgalanmalar\u0131na i\u015Faret edebilir.
+    Ancak bu dalgalanmalar\u0131n sizi dengelemek ve b\xFCy\xFCtmek i\xE7in oldu\u011Funu
+    unutmay\u0131n. @ @Kahve fal\u0131 yorumlar\u0131 ki\u015Fiseldir ve semboller
+    farkl\u0131 \u015Fekillerde yorumlanabilir. Bu yorumlar size ilham verirken,
+    kendi i\xE7sel sezgilerinize de g\xFCvenmekte \xF6zg\xFCrs\xFCn\xFCz. \u0130yi
+    \u015Fanslar!"
+  kahveFaliText: {fileID: 1591475426}
+--- !u!1 &1991091244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991091247}
+  - component: {fileID: 1991091246}
+  - component: {fileID: 1991091245}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1991091245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991091244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1991091246
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991091244}
+  m_CullTransparentMesh: 1
+--- !u!224 &1991091247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991091244}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 9, y: 9, z: 9}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 877770750}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 55.5}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2014121392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014121393}
+  - component: {fileID: 2014121395}
+  - component: {fileID: 2014121394}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2014121393
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014121392}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 9.25, y: 9.25, z: 9.25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 877770750}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 55.5}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2014121394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014121392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 57138644eee18c848944234a7a0bf55b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2014121395
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014121392}
+  m_CullTransparentMesh: 1
